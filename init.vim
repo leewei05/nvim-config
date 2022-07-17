@@ -12,5 +12,12 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 
+" Functionality
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'mhinz/vim-signify'
+
 call plug#end()
 
+"vim-signify async updatetime
+set updatetime=100
