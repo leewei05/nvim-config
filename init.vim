@@ -33,7 +33,7 @@ syntax on
 set number
 set laststatus
 set noerrorbells visualbell t_vb=
-colorscheme gruvbox8_hard
+colorscheme gruvbox8
 
 "vim-signify async updatetime
 set updatetime=100
