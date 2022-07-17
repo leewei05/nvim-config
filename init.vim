@@ -22,6 +22,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'vim-airline/vim-airline'
 
+" Color
+Plug 'lifepillar/vim-gruvbox8'
+
 call plug#end()
 
 " Core
@@ -30,6 +33,7 @@ syntax on
 set number
 set laststatus
 set noerrorbells visualbell t_vb=
+colorscheme gruvbox8_hard
 
 "vim-signify async updatetime
 set updatetime=100
