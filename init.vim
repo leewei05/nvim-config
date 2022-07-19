@@ -55,6 +55,9 @@ let g:go_highlight_types = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 
+" Trim trailing spaces
+autocmd BufWritePre * :%s/\s\+$//e
+
 " Force keyboard
 " Do this in normal mode...
 nnoremap <Left>  :echoe "Use h"<CR>
