@@ -30,6 +30,9 @@ call plug#end()
 " Core
 set nocompatible
 syntax on
+" Set tab spaces
+set tabstop=2
+set shiftwidth=2
 set number
 set laststatus
 set noerrorbells visualbell t_vb=
