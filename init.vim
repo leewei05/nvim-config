@@ -1,8 +1,8 @@
 call plug#begin()
 
-" Declare the list of plugins.
+" Programming language
+Plug 'vim-scripts/c.vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'preservim/nerdtree'
 
 " Auto completion plugins
 Plug 'neovim/nvim-lspconfig'
@@ -21,6 +21,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdtree'
 
 " Color
 Plug 'lifepillar/vim-gruvbox8'
