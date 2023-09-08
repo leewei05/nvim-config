@@ -9,8 +9,14 @@
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
- -- add gruvbox
+ -- add gruvbox colorscheme
  { "ellisonleao/gruvbox.nvim" },
+
+ -- toggle terminals
+ { "akinsho/toggleterm.nvim",
+    version = "*",
+    config = true
+ },
 
  -- Configure LazyVim to load gruvbox
  {
@@ -26,9 +32,6 @@ return {
   -- opts will be merged with the parent spec
   opts = { use_diagnostic_signs = true },
  },
-
- -- disable trouble
- -- { "folke/trouble.nvim", enabled = false },
 
  -- add symbols-outline
  {
