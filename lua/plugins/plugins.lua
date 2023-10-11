@@ -9,6 +9,16 @@
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
+ -- disable notify
+ {
+    "folke/noice.nvim",
+    opts = {
+      notify = {
+        enabled = false,
+      },
+    },
+ },
+ { "rcarriga/nvim-notify", enabled = false },
  -- add gruvbox colorscheme
  { "ellisonleao/gruvbox.nvim" },
 
