@@ -26,9 +26,9 @@ return {
   event = "LazyFile",
   opts = {
     indent = {
-      -- char = "│",
-      -- tab_char = "│",
-      highlight = highlight,
+      char = "│",
+      tab_char = "│",
+      -- highlight = highlight,
     },
     scope = { enabled = false },
     exclude = {
