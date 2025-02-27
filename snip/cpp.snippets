@@ -1,0 +1,21 @@
+priority -50
+
+extends c
+
+# We want to overwrite everything in parent ft.
+priority -49
+
+snippet include "#include"
+#include <${1}>
+endsnippet
+
+snippet cout "std::cout"
+std::cout << ${1} << std::endl;
+endsnippet
+
+snippet fora "for loop"
+for(auto ${2:x} : ${1:collection})
+{
+	${0:/* code */}
+}
+endsnippet

@@ -1,0 +1,10 @@
+snippet include "#include"
+#include <${1}.h>
+endsnippet
+
+snippet main "main()" b
+int main(int argc, char *argv[]){
+	${VISUAL}${0:${VISUAL/(.*)/(?1::\/* code *\/)/}}
+	return 0;
+}
+endsnippet
