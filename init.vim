@@ -280,10 +280,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Remove hightlight
 nnoremap <esc> :noh<return><esc>
 
-" OCaml
-let g:opamshare = substitute(system('opam var share'),'\n$','','''')
-execute "set rtp+=" . g:opamshare . "/merlin/vim"
-
 " Force keyboard
 " Do this in normal mode...
 nnoremap <Left>  :echoe "Use h"<CR>
